@@ -1,0 +1,62 @@
+
+#container {
+    width: 1250px;
+}
+#content {
+    background-color: #d4fdd4;
+    width: 1250px;
+    height: 800px;
+    float: left;
+}
+#header {
+    background-color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+#header img {
+    margin-right: 20px;
+}
+.bg-white .nav-link {
+    align-items: center;
+    color: black; /* Color del texto a negro */
+}
+.bg-white .nav-link:hover {
+    color:   #b00962; /* Color al pasar el mouse, ajustable */
+}
+.nav-link {
+    padding: 15px 20px; /* Añadir un poco de relleno a los enlaces */
+}
+.nav-item {
+    margin-right: 30px; /* Espaciado entre los elementos */
+
+}
+a {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.menu-title {
+    color: rgb(231, 231, 231);
+    font-weight: bold;
+}
+.header-title {
+    font-family: forte;
+    color: rgb(251, 251, 251);
+}
+.content-font {
+    font-family: Arial;
+}
+.table-section {
+    margin: 10px; /* Espaciado adicional */
+}
+table {
+    width: 100%; /* La tabla ocupa el 100% del contenedor */
+    border-collapse: collapse; /* Combina bordes de celdas */
+}
+th, td {
+    padding: 5px; /* Espaciado interno en celdas */
+    border: 1px solid #ccc; /* Bordes de celdas */
+    text-align: left; /* Alineación de texto */
+}
